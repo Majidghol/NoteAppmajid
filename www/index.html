@@ -1,18 +1,17 @@
-<!DOCTYPE html>
-<html>
+
+<!DOCTYPE html><html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>دفترچه یادداشت</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body><div class="container">
+    <h1>📝 دفترچه یادداشت من</h1><textarea id="note" placeholder="یادداشت خود را بنویسید..."></textarea>
 
-<h1>دفترچه یادداشت</h1>
+<button onclick="saveNote()">💾 ذخیره یادداشت</button>
 
-<textarea id="note" placeholder="یادداشت خود را بنویسید..."></textarea>
+<div id="message"></div>
 
-<button onclick="saveNote()">ذخیره</button>
-
-<script src="app.js"></script>
-</body>
+</div><script src="app.js"></script></body>
 </html>
