@@ -1,4 +1,3 @@
-
 const note = document.getElementById("note");
 const message = document.getElementById("message");
 
